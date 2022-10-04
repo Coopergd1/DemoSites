@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="aboutus.html">ABOUT</a>
+                </li>
+                <li>
+                    <a href="contactus.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>America's #1 Online Real Estate Tool</h1>
+    <p>Making real estate "real" for buyers and sellers across the country. <br> We want to pick up 
+        where zillow and realtor leave off. Enabling users to buy and sell online.
+    </p>
+    <a href="" class="hero-btn">Visit Us To Learn More</a>
+</div>    
+
+
+</section>
+
+<!-- ABOUT Section -->
+<section class="about">
+    <h1>Learn More About Us</h1>
+    <p>Find out what we do, who we are, and where we are going.</p>
+
+    <div class="row">
+        <div class="about-col">
+            <h3>What We Do</h3>
+            <p>Some Stuff</p>
+        </div>
+        <div class="about-col">
+            <h3>Who We Are</h3>
+            <p>Some Stuff</p>
+        </div>
+        <div class="about-col">
+            <h3>Where We're Going</h3>
+            <p>Some Stuff</p>
+        </div>
+    </div>
+    
+
+
+</section>
+
+<!-- FEATURED Section -->
+
+<section class="featured">
+    <h1>Featured Content</h1>
+    <p>Content that is featured.</p>
+    <div class="row">
+        <div class="featured-col">
+            <img src="images/beachhouse.jpg">
+            <div class="layer">
+                <h3>Beach Houses</h3>
+            </div>
+        </div>
+        <div class="featured-col">
+            <img src="images/farm.jpg">
+            <div class="layer">
+                <h3>Farms</h3>
+            </div>
+        </div>
+        <div class="featured-col">
+            <img src="images/offices.jpg">
+            <div class="layer">
+                <h3>Offices</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Learn More -->
+<section class="learnmore">
+    <h1>Learn More</h1>
+    <p>Find out about how our platform can help you.</p>
+
+    <div class="learnmore-col">
+        <img src="images/neighborhood.jpg">
+        <h3>How can we help you buy or sell?</h3>
+        <p>Through our outstanding platform we pickup where
+            others have left off. We complete the cycle to 
+            allow for our users to have the best experience
+            possible.
+        </p>
+    </div>
+    
+
+</section> 
+
+<!-- Call to Action -->
+
+<section class="cta">
+    <h1>Contact Us to Buy or Sell!</h1>
+    <a class="hero-btn">CONTACT US</a>
+</section>
+
+<!--Footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are excited for the opportunity to work with you!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+<!------ JS For Toggle Menu ----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+</body>
+</html>
